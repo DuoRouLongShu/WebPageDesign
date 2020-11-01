@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="swiper/swiper520.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+  <link rel="stylesheet" type="text/css" href="css/css1.css" />
+  <link rel="stylesheet" type="text/css" href="css/css2.css" />
+  <title>科技创青春，传承无止境</title>
+</head>
+
+<body>
+  <!--header头部 开始-->
+  <div class="header">
+    <div class="header2">
+      <div class="boxs box1">&nbsp;</div>
+      <div class="boxs box2">
+        <a href="index2.html"><span>科技动态</span><i class="iconfont iconiconfontdongtaidianji"></i></a>
+        <a href="index3.html"><span>传承创新</span><i class="iconfont iconchuangxinfuwu"></i></a>
+      </div>
+      <div class="boxs box3 on">
+        <a href="index.html" class="on"><span>主页</span><i class="iconfont iconzhuye"></i></a>
+      </div>
+    </div>
+  </div>
+  <!--header头部 结束-->
+  <!--swiper轮播图 开始-->
+  <div class="swiper-container" id="indexBanner">
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/ban1.jpg" /></div>
+      <div class="swiper-slide"><img src="images/ban2.jpg" /></div>
+      <div class="swiper-slide"><img src="images/ban3.jpg" /></div>
+      <div class="swiper-slide"><img src="images/ban4.jpg" /></div>
+      <div class="swiper-slide"><img src="images/ban5.jpg" /></div>
+    </div>
+  </div>
+  <!--swiper轮播图 结束-->
+  <!--主体内容的图片堆积 开始-->
+  <div class="indexImgEffect bgcov" style="background: url(images/bgindex.jpg);">
+    <div class="banxin1200 indexImgEffect2">
+      <a href="###" title="1" class="anisca link1"><img src="images/effect1.jpg" /></a>
+      <a href="###" title="2" class="anisca link2"><img src="images/effect2.jpg" /></a>
+      <a href="###" title="3" class="anisca link3"><img src="images/effect3.jpg" /></a>
+      <a href="###" title="4" class="anisca link4"><img src="images/effect4.jpg" /></a>
+      <a href="###" title="5" class="anisca link5"><img src="images/effect5.jpg" /></a>
+      <a href="###" title="6" class="anisca link6"><img src="images/effect6.jpg" /></a>
+      <a href="###" title="7" class="anisca link7"><img src="images/effect7.jpg" /></a>
+      <a href="###" title="8" class="anisca link8"><img src="images/effect8.jpg" /></a>
+      <a href="###" title="9" class="anisca link9"><img src="images/effect9.jpg" /></a>
+      <a href="###" title="10" class="anisca link10"><img src="images/effect10.jpg" /></a>
+    </div>
+  </div>
+  <!--主体内容的图片堆积 结束-->
+  <!--footer版权 开始-->
+  <div class="footer">
+    <div class="footer2">
+      <div>联系电话：173&nbsp;2271&nbsp;1623&nbsp;&nbsp;&nbsp;联系微信：173&nbsp;2271&nbsp;1623&nbsp;&nbsp;&nbsp;联系邮箱：2957661828@qq.com</div>
+      <div>Copyright &copy; 2020 Adobe Systems Incorporated. All rights reserved.</div>
+    </div>
+  </div>
+  <!--footer版权 结束-->
+</body>
+</html>
+<script type="text/javascript" src="swiper/swiper520.min.js"></script>
+<script type="text/javascript">
+  //swiper轮播图
+  window.onload = function() {
+    var swiper = new Swiper('#indexBanner', {
+      loop: true,
+      effect: 'slide',
+      autoplay: {
+        disableOnInteraction: false,
+        delay: 3000,
+      },
+      preventLinksPropagation: false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  }
+</script>

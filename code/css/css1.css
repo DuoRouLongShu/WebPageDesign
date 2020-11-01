@@ -1,0 +1,81 @@
+/*初始元素*/
+
+html,body{font-size: 16px;color: #333;}
+*{box-sizing: border-box;font-style: normal;margin: 0;padding: 0;line-height: 1;font-family: "Microsoft YaHei";border: none;outline: none;}
+ol,ul,li{list-style: none;}
+table{border-collapse: collapse;display: table;width: 100%;}
+span,i,b{display: inline-block;}
+
+/*文字段落*/
+
+.tac{text-align: center !important;}
+.tar{text-align: right !important;}
+.tal{text-align: left !important;}
+.taj{text-align: justify !important;}
+.touper{text-transform: uppercase;}
+.tolower{text-transform: lowercase;}
+.tocapit{text-transform: capitalize;}
+
+/*美化滚动条*/
+
+::-webkit-scrollbar{width: 0px;}
+::-webkit-scrollbar-track{background-color: #EEEEEE;}
+::-webkit-scrollbar-thumb{background-color: #D6D6D6;}
+::-webkit-scrollbar-thumb:hover{background-color: #ccc}
+::-webkit-scrollbar-thumb:active{background-color: #ccc}
+
+/*超出隐藏*/
+
+.oe{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.dot{text-align: justify;overflow: hidden;}
+.dot2{text-align: justify;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+
+/*清除浮动*/
+
+.clearfix:after{content: "";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{*+height: 1%;}
+
+/*图片背景*/
+
+.bgcen,.bgcov,.bg100{width: 100%;background-repeat: no-repeat !important;}
+.bgcen{background-position: center center !important;}
+.bgcov{background-size: cover !important;}
+.bg100{background-size: 100% 100% !important;}
+
+/*超链接和图片*/
+
+a{display: inline-block;text-decoration: none;cursor: pointer;color: #333;;}
+img{display: inline-block;max-width: 100%;vertical-align: middle;}
+
+/*表单*/
+
+input,button{display: inline-block;background: none;-webkit-appearance: none;}
+input,textarea,select,button,fieldset,object{-moz-appearance: none;outline: none;-moz-outline: none;-webkit-box-shadow: none;box-shadow: none;-moz-box-shadow: none;}
+textarea{resize: none;-webkit-appearance: none;}
+button[type="submit"],button[type="reset"],input[type="submit"],input[type="reset"],input[type="button"],button{cursor: pointer;}
+input::-ms-clear,input::-ms-reveal,input::-o-clear{display: none;}
+input::-webkit-input-placeholder{ color: #aaa;}
+input::-moz-placeholder{ color: #aaa;}
+input:-moz-placeholder{ color: #aaa;}
+input:-ms-input-placeholder{ color: #aaa;}
+
+/*图片缩放*/
+
+.anisca{cursor: pointer;overflow: hidden;}
+.anisca img{cursor: pointer;-webkit-transition: all 0.8s;-o-transition: all 0.8s;transition: all 0.8s;-webkit-transform: scale(1, 1);-ms-transform: scale(1, 1);transform: scale(1, 1);}
+.anisca:hover img{-webkit-transform: scale(1.2, 1.2);-ms-transform: scale(1.2, 1.2);transform: scale(1.2, 1.2);}
+
+/*图片上浮*/
+
+.anitop{ -webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);-webkit-transition: all 0.5s;-o-transition: all 0.5s;transition: all 0.5s;}
+.anitop:hover{-webkit-transform: translate3d(0, -3%, 0);transform: translate3d(0, -3%, 0);cursor: pointer;}
+
+/*图片旋转*/
+
+.anirot{cursor: pointer;overflow: hidden;}
+.anirot img{cursor: pointer;-webkit-transition: all 0.8s;-o-transition: all 0.8s;transition: all 0.8s;-webkit-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);}
+.anirot:hover img{-webkit-transform: rotate(180deg);-ms-transform: rotate(180deg);transform: rotate(180deg);}
+
+/*定义版心*/
+
+.banxin1200{width: 1200px;margin: 0 auto;}
