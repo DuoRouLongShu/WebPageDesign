@@ -16,13 +16,13 @@ span,i,b{display: inline-block;}
 .tolower{text-transform: lowercase;}
 .tocapit{text-transform: capitalize;}
 
-/*美化滚动条*/
+/* 美化滚动条
 
 ::-webkit-scrollbar{width: 0px;}
 ::-webkit-scrollbar-track{background-color: #EEEEEE;}
 ::-webkit-scrollbar-thumb{background-color: #D6D6D6;}
 ::-webkit-scrollbar-thumb:hover{background-color: #ccc}
-::-webkit-scrollbar-thumb:active{background-color: #ccc}
+::-webkit-scrollbar-thumb:active{background-color: #ccc} */
 
 /*超出隐藏*/
 
